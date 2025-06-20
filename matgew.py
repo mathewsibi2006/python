@@ -1,6 +1,5 @@
-a=input("enter your name")
-b=int(input("age"))
-c=input("enter your city")
-print("name",a)
-print("age",b)
-print("city",c)
+n = int(input("enter a number"))
+i = 1
+while i <= 10:
+    print(n, "x", i,"=",n*i)
+    i += 1
